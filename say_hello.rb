@@ -1,3 +1,3 @@
-def say_hello(generic = "Hello Ruby Programmer!", name = "Kent Beck")
+def say_hello(name, default = "Hello Ruby Programmer!")
   puts "Hello" + (name) + "!"
 end
